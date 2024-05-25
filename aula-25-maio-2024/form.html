@@ -8,10 +8,10 @@
   <body>
     <form>
       <div>
-        <input type="text" />
+        <input type="text" required placeholder="Nome completo" />
       </div>
       <div>
-        <input type="number" />
+        <input type="number" disabled placeholder="Digite sua idade" />
       </div>
       <div>
         <input type="password" />
@@ -20,7 +20,7 @@
         <input type="date" />
       </div>
       <div>
-        <input type="email" />
+        <input type="email" required />
       </div>
       <div>
         <input type="time" />
@@ -29,12 +29,17 @@
         <textarea> </textarea>
       </div>
       <div>
-        <select>
+        <select required>
+          <option value="">Seelcione uma cidade</option>
           <option value="fortaleza">Fortaleza</option>
           <option value="São Paulo">São Paulo</option>
           <option value="Marília">Marília</option>
           <option value="Quixadá">Quixadá</option>
+          <option value="">Outros</option>
         </select>
+      </div>
+      <div>
+        <input type="submit" value="Enviar" />
       </div>
     </form>
   </body>
