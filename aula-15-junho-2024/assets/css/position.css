@@ -1,0 +1,31 @@
+.card {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  align-self: center;
+  background-color: red;
+  width: 600px;
+  height: 600px;
+}
+
+.card .box-blue {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+}
+
+.card .box-green {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  bottom: -40px;
+  left: 0;
+}
+
+.card .box-yellow {
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  bottom: 0;
+}
