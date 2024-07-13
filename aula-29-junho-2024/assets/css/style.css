@@ -1,0 +1,33 @@
+main {
+  & header {
+    display: flex;
+    justify-content: space-between;
+
+    & nav {
+      & .menu-hamburguer {
+        display: none;
+
+        @media (min-width: 320px) and (max-width: 480px) {
+          display: block;
+        }
+      }
+
+      & ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        gap: 20px;
+
+        @media (min-width: 320px) and (max-width: 480px) {
+          display: none;
+        }
+
+        & li {
+          & a {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
